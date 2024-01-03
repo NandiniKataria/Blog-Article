@@ -1,4 +1,4 @@
-const express =s("express")
+const express =require("express")
 const router=express.Router()
 const Article=require("./../models/article")
 router.get("/new" ,(req,res)=>{
